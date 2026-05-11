@@ -18,7 +18,6 @@ import PracticePage from "./pages/PracticePage";
 import CreatorPage from "./pages/CreatorPage";
 import SubscriptionsPage from "./pages/SubscriptionsPage";
 import ProfilePage from "./pages/ProfilePage";
-import EasterEgg from "./components/EasterEgg";
 import {
   courseLeaderboardMocks,
   courseMaterialLibrary,
@@ -555,7 +554,6 @@ function AppContent() {
 
   return (
     <div className="page" data-theme={theme}>
-      <EasterEgg />
       <div className="aim-grid" aria-hidden="true">
         <div className="aim-grid-plane" />
       </div>
